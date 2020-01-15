@@ -1,0 +1,7 @@
+.div {
+  background-color: green;
+}
+
+table tr:hover {
+  background-color: grey;
+}
