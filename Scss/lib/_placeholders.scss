@@ -1,50 +1,3 @@
-@if $include-utilities == true{
-
-/*------------------------------------*\
-    $UTILITIES
-\*------------------------------------*/
-/*
-*
-* Selectors repeated constantly
-*/
-
-/*
- * Classes for font- sizes, you can check them in Settings.scss
- * Same name of the variables with the `font-` prefix
-
-		.font-x-small {
-			font-size: .9rem;
-		}
-
-
- */
-
-@each $name, $value in $size-vars {
-    .font-#{$name} {
-        font-size: $value * 1rem;
-        line-height: 1.5;
-    }
-}
-
-
-
-
-.float-right{
-    float:right;
-}
-
-// Para cuando queremos tener varios elementos en inline-block:
-.inline-block {
-    display: inline-block;
-}
-
-// Diferentes especificaciones para márgenes
-.nomargin-bottom {
-    margin-bottom: 0;
-}
-.margin-bottom {
-    margin-bottom: $baselineheight;
-}
 
 
 
@@ -53,9 +6,6 @@
 /*------------------------------------*\
     $PLACEHOLDERS
 \*------------------------------------*/
-// Scss placeholder
-
-
 
 %text-overflow {
 	overflow : hidden;
@@ -126,13 +76,3 @@
         clear:both;
     }
 }
-
-
-
-
-
-
-
-
-
-} // if

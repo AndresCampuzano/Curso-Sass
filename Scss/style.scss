@@ -1,22 +1,12 @@
 
 
-// import orden matters!
 
-@import 'lib/variables';
-@import 'lib/mixins';
 
-// foundation elements
-
-@import 'foundation/buttons';
-@import 'foundation/links';
-@import 'foundation/fonts';
-
-// component elements
-
-@import 'components/grid';
-
-// layout
-@import 'layout/layout';
-
-// This always will be the last one
-@import 'components/utilities';
+/*------------------------------------*\
+    $STYLE
+\*------------------------------------*/
+/**
+ * Let's define the settings file here, or the partials to be included.
+ * This way we can have different .css files compiled with different partials each.
+ */
+@import "partials";
