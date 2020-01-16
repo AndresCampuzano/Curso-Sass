@@ -1,9 +1,22 @@
-$color1 : red;
-$color2 : blue;
-$color3 : green;
 
-.div {
-    background-color: $color3;
-}
 
-@import 'table';
+// import orden matters!
+
+@import 'lib/variables';
+@import 'lib/mixins';
+
+// foundation elements
+
+@import 'foundation/buttons';
+@import 'foundation/links';
+@import 'foundation/fonts';
+
+// component elements
+
+@import 'components/grid';
+
+// layout
+@import 'layout/layout';
+
+// This always will be the last one
+@import 'components/utilities';

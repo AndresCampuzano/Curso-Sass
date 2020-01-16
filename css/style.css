@@ -1,7 +1,38 @@
-.div {
-  background-color: green;
+.btn {
+  display: inline-block;
+  color: #ffffff;
+  background-color: #ea83ee;
+  line-height: 2.5;
+  border-radius: 3px;
+  font-size: 24px;
 }
 
-table tr:hover {
-  background-color: grey;
+.btn__icon {
+  font-size: 0.6em;
+}
+
+.btn--info {
+  background-color: #42b8dd;
+}
+
+section {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #bfbfbf;
+  padding: 24px;
+}
+
+.max-width--huge {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background-color: #ea83ee;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
